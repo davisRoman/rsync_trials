@@ -20,7 +20,6 @@ rsync -v -azh --progress         \
               --times            \
               --one-file-system  \
               --force            \
-              --prune-empty-dirs \
               --stats            \
               --human-readable   \
               --itemize-changes  \
