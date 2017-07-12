@@ -1,3 +1,4 @@
+```
 rsync_sending=/var/www/rsync/TSVE/202-0/rootfs-contents/
 rsync_receiving=/tmp/rootfs_b
 
@@ -25,3 +26,4 @@ rsync -v -azh --progress         \
               --itemize-changes  \
               --no-whole-file    \
               root@10.10.100.248:${rsync_sending} ${rsync_receiving}
+```
